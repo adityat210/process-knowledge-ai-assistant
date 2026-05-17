@@ -1,0 +1,9 @@
+[project]
+name = "process-knowledge-ai-assistant"
+version = "0.1.0"
+description = "Local RAG assistant over synthetic process knowledge records."
+requires-python = ">=3.8"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
