@@ -15,7 +15,6 @@ def grouped_evidence(results: List[dict]) -> Dict[str, List[dict]]:
 def answer_query(query: str, top_k: int = 5) -> str:
     results = retrieve(query, top_k=top_k)
     grouped = grouped_evidence(results)
-    source_ids = [result["record_id"] for result in results]
 
     answer_lines = [
         "# Answer",
