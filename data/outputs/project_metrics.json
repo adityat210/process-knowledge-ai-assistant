@@ -1,0 +1,39 @@
+{
+  "total_raw_records": 300,
+  "total_processed_records": 300,
+  "process_categories": 6,
+  "workflow_outputs": 3,
+  "metadata_coverage": 1.0,
+  "retrievable_records": 300,
+  "top_failure_modes": {
+    "coating uniformity drift": 38,
+    "thermal cycling impedance drift": 38,
+    "increased defect rate": 38,
+    "calibration offset": 38,
+    "material batch inconsistency": 37,
+    "sensor anomaly": 37,
+    "yield loss": 37,
+    "validation threshold miss": 37
+  },
+  "validation_outcome_counts": {
+    "failed": 88,
+    "warning": 71,
+    "passed": 141
+  },
+  "category_counts": {
+    "Battery Process Optimization": 50,
+    "Materials Characterization": 50,
+    "Manufacturing QA": 50,
+    "Equipment Maintenance": 50,
+    "Failure Analysis": 50,
+    "Validation Testing": 50
+  },
+  "record_type_counts": {
+    "experiment_note": 50,
+    "qa_record": 50,
+    "maintenance_log": 50,
+    "failure_report": 50,
+    "validation_summary": 50,
+    "parameter_change": 50
+  }
+}
