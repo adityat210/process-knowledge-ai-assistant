@@ -10,7 +10,7 @@ I wanted the project to back up the resume bullets with real files, tests, and g
 
 - Built AI assistant over 300 process notes and records by combining Python ingestion, metadata extraction, embeddings, and RAG retrieval.
 - Improved knowledge lookup across 6 process categories by structuring experiment notes, failure modes, parameters, and validation outcomes.
-- Supported demo-ready analysis across 3 source-grounded workflow outputs and a Jupyter notebook.
+- Supported demo-ready analysis across 3 NotebookLM-style workflow outputs and a Jupyter notebook.
 
 ## Architecture
 
@@ -80,7 +80,7 @@ The assistant retrieves the closest source records, summarizes the evidence, rec
 | Metadata extraction | metadata_extraction.py |
 | Embeddings | embeddings.py with local embedding/TF-IDF fallback |
 | RAG retrieval | retrieval.py and rag_assistant.py |
-| Source-grounded and Jupyter analysis | Markdown workflow outputs and demo_analysis.ipynb |
+| NotebookLM and Jupyter analysis | NotebookLM-style markdown outputs and demo_analysis.ipynb |
 
 ## Metrics Table
 

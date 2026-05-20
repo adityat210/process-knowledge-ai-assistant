@@ -64,7 +64,7 @@ def print_final_summary(metrics: dict) -> None:
     print("- Structured knowledge lookup across 6 process categories.")
     print("- Generated 3 workflow outputs: summary report, source map, troubleshooting guide.")
     print("- Created Python ingestion, metadata extraction, embedding, retrieval, and local RAG answer pipeline.")
-    print("- Added source-grounded workflow outputs and Jupyter demo notebook.")
+    print("- Added NotebookLM-style workflow outputs and Jupyter demo notebook.")
     print("- Saved metrics to data/outputs/project_metrics.json.")
 
 

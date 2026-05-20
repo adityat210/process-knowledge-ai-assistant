@@ -139,7 +139,7 @@ def run_pipeline() -> dict:
     for query in SAMPLE_QUERIES:
         print(answer_query(query, top_k=3).split("## Source Records")[0])
 
-    print("\n7. generating source-grounded workflow outputs")
+    print("\n7. generating NotebookLM-style workflow outputs")
     generate_workflow_outputs()
 
     print("\n8. creating jupyter demo notebook")
