@@ -86,13 +86,15 @@ The assistant retrieves the closest source records, summarizes the evidence, rec
 
 The pipeline writes final metrics to `data/outputs/project_metrics.json`.
 
-| Metric | Target |
-|---|---:|
-| total_processed_records | >= 250 |
-| process_categories | 6 |
-| workflow_outputs | >= 3 |
-| metadata_coverage | >= 0.95 |
-| retrievable_records | >= 250 |
+| Metric | Actual Value | Target |
+|---|---:|---:|
+| total_raw_records | 300 | >= 250 |
+| total_processed_records | 300 | >= 250 |
+| process_categories | 6 | 6 |
+| workflow_outputs | 3 | >= 3 |
+| metadata_coverage | 1.0 | >= 0.95 |
+| retrievable_records | 300 | >= 250 |
+| validation failed/warning/passed | 88 / 71 / 141 | tracked |
 
 ## Limitations
 

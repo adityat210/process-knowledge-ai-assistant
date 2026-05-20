@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import os
 from pathlib import Path
 from typing import List, Tuple, Union
 
@@ -40,8 +39,6 @@ def build_tfidf_index(records: List[dict], index_dir: Path) -> None:
 
 
 def build_sentence_transformer_index(records: List[dict], index_dir: Path) -> bool:
-    if os.environ.get("PKAI_USE_SENTENCE_TRANSFORMERS") != "1":
-        return False
     try:
         from sentence_transformers import SentenceTransformer
     except Exception:
